@@ -12,6 +12,7 @@
 		4B00893B2904E68D00F903BA /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00893A2904E68D00F903BA /* NotificationsViewController.swift */; };
 		4B00893D2904E6A100F903BA /* DirectMessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00893C2904E6A100F903BA /* DirectMessagesViewController.swift */; };
 		4B0089402904EA1C00F903BA /* TweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00893F2904EA1C00F903BA /* TweetTableViewCell.swift */; };
+		4B0CDF8029086DA400187BF9 /* ProfileTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0CDF7F29086DA400187BF9 /* ProfileTableViewHeader.swift */; };
 		4B1D123F2904B1FE005BE67C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1D123E2904B1FE005BE67C /* AppDelegate.swift */; };
 		4B1D12412904B1FE005BE67C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1D12402904B1FE005BE67C /* SceneDelegate.swift */; };
 		4B1D12432904B1FE005BE67C /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1D12422904B1FE005BE67C /* MainTabBarViewController.swift */; };
@@ -26,6 +27,7 @@
 		4B00893A2904E68D00F903BA /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
 		4B00893C2904E6A100F903BA /* DirectMessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectMessagesViewController.swift; sourceTree = "<group>"; };
 		4B00893F2904EA1C00F903BA /* TweetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetTableViewCell.swift; sourceTree = "<group>"; };
+		4B0CDF7F29086DA400187BF9 /* ProfileTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewHeader.swift; sourceTree = "<group>"; };
 		4B1D123B2904B1FE005BE67C /* TwitterClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B1D123E2904B1FE005BE67C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B1D12402904B1FE005BE67C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				4B00893F2904EA1C00F903BA /* TweetTableViewCell.swift */,
+				4B0CDF7F29086DA400187BF9 /* ProfileTableViewHeader.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				4B0089372904E66F00F903BA /* HomeViewController.swift in Sources */,
 				4B52EC9829076BAB00019FCB /* ProfileViewController.swift in Sources */,
 				4B00893D2904E6A100F903BA /* DirectMessagesViewController.swift in Sources */,
+				4B0CDF8029086DA400187BF9 /* ProfileTableViewHeader.swift in Sources */,
 				4B0089402904EA1C00F903BA /* TweetTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

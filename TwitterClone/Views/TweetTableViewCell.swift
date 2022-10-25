@@ -46,7 +46,7 @@ class TweetTableViewCell: UITableViewCell {
         let label = UILabel()
         label.font = .systemFont(ofSize: 16, weight: .regular)
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "@me"
+        label.text = "@miq1810"
         label.textColor = .secondaryLabel
         return label
     }()
