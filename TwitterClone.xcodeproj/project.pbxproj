@@ -17,6 +17,7 @@
 		4B1D12432904B1FE005BE67C /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1D12422904B1FE005BE67C /* MainTabBarViewController.swift */; };
 		4B1D12482904B200005BE67C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B1D12472904B200005BE67C /* Assets.xcassets */; };
 		4B1D124B2904B200005BE67C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B1D12492904B200005BE67C /* LaunchScreen.storyboard */; };
+		4B52EC9829076BAB00019FCB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B52EC9729076BAB00019FCB /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		4B1D12472904B200005BE67C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B1D124A2904B200005BE67C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B1D124C2904B200005BE67C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B52EC9729076BAB00019FCB /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 		4B0089342904E64C00F903BA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4B52EC9629076B9200019FCB /* General */,
 				4B0089352904E65500F903BA /* Core */,
 			);
 			path = Controllers;
@@ -101,6 +104,14 @@
 				4B1D124C2904B200005BE67C /* Info.plist */,
 			);
 			path = TwitterClone;
+			sourceTree = "<group>";
+		};
+		4B52EC9629076B9200019FCB /* General */ = {
+			isa = PBXGroup;
+			children = (
+				4B52EC9729076BAB00019FCB /* ProfileViewController.swift */,
+			);
+			path = General;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +190,7 @@
 				4B00893B2904E68D00F903BA /* NotificationsViewController.swift in Sources */,
 				4B1D12412904B1FE005BE67C /* SceneDelegate.swift in Sources */,
 				4B0089372904E66F00F903BA /* HomeViewController.swift in Sources */,
+				4B52EC9829076BAB00019FCB /* ProfileViewController.swift in Sources */,
 				4B00893D2904E6A100F903BA /* DirectMessagesViewController.swift in Sources */,
 				4B0089402904EA1C00F903BA /* TweetTableViewCell.swift in Sources */,
 			);
