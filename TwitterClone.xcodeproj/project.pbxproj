@@ -30,6 +30,8 @@
 		4B3C097429106FC500D63DFE /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 4B3C097329106FC500D63DFE /* FirebaseStorageCombine-Community */; };
 		4B3C0977291072C300D63DFE /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3C0976291072C300D63DFE /* OnboardingViewController.swift */; };
 		4B3C09792910778E00D63DFE /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3C09782910778E00D63DFE /* RegisterViewController.swift */; };
+		4B3C097C29107F8D00D63DFE /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3C097B29107F8D00D63DFE /* RegisterViewViewModel.swift */; };
+		4B3C097F2910843200D63DFE /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3C097E2910843200D63DFE /* AuthManager.swift */; };
 		4B52EC9829076BAB00019FCB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B52EC9729076BAB00019FCB /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +52,8 @@
 		4B3C096029106CA500D63DFE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4B3C0976291072C300D63DFE /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		4B3C09782910778E00D63DFE /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		4B3C097B29107F8D00D63DFE /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
+		4B3C097E2910843200D63DFE /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		4B52EC9729076BAB00019FCB /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,6 +127,8 @@
 		4B1D123D2904B1FE005BE67C /* TwitterClone */ = {
 			isa = PBXGroup;
 			children = (
+				4B3C097D2910842200D63DFE /* Networking */,
+				4B3C097A29107F7200D63DFE /* ViewModels */,
 				4B00893E2904EA0000F903BA /* Views */,
 				4B0089342904E64C00F903BA /* Controllers */,
 				4B1D123E2904B1FE005BE67C /* AppDelegate.swift */,
@@ -142,6 +148,22 @@
 				4B3C09782910778E00D63DFE /* RegisterViewController.swift */,
 			);
 			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		4B3C097A29107F7200D63DFE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4B3C097B29107F8D00D63DFE /* RegisterViewViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4B3C097D2910842200D63DFE /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				4B3C097E2910843200D63DFE /* AuthManager.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 		4B52EC9629076B9200019FCB /* General */ = {
@@ -238,12 +260,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B0089392904E68200F903BA /* SearchViewController.swift in Sources */,
+				4B3C097F2910843200D63DFE /* AuthManager.swift in Sources */,
 				4B1D12432904B1FE005BE67C /* MainTabBarViewController.swift in Sources */,
 				4B1D123F2904B1FE005BE67C /* AppDelegate.swift in Sources */,
 				4B3C09792910778E00D63DFE /* RegisterViewController.swift in Sources */,
 				4B00893B2904E68D00F903BA /* NotificationsViewController.swift in Sources */,
 				4B1D12412904B1FE005BE67C /* SceneDelegate.swift in Sources */,
 				4B0089372904E66F00F903BA /* HomeViewController.swift in Sources */,
+				4B3C097C29107F8D00D63DFE /* RegisterViewViewModel.swift in Sources */,
 				4B52EC9829076BAB00019FCB /* ProfileViewController.swift in Sources */,
 				4B00893D2904E6A100F903BA /* DirectMessagesViewController.swift in Sources */,
 				4B0CDF8029086DA400187BF9 /* ProfileTableViewHeader.swift in Sources */,
